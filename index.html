@@ -2,67 +2,33 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Mi Página Web</title>
+  <title>Insertar una Imagen</title>
   <style>
     body {
       font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #f4f4f4;
-    }
-    header {
-      background-color: #2c3e50;
-      color: white;
-      padding: 20px 0;
       text-align: center;
+      background-color: #f2f2f2;
+      padding: 50px;
     }
-    nav {
-      background-color: #34495e;
-      padding: 10px;
-      text-align: center;
-    }
-    nav a {
-      color: white;
-      text-decoration: none;
-      margin: 0 15px;
-      font-weight: bold;
-    }
-    main {
-      padding: 20px;
-    }
-    footer {
-      background-color: #2c3e50;
-      color: white;
-      text-align: center;
-      padding: 15px;
-      position: fixed;
-      bottom: 0;
-      width: 100%;
+
+    img {
+      width: 300px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
     }
   </style>
 </head>
 <body>
-  <header>
-    <h1>Bienvenido a Mi Página Web</h1>
-    <p>Tu espacio en internet</p>
-  </header>
 
-  <nav>
-    <a href="#">Inicio</a>
-    <a href="#">Sobre mí</a>
-    <a href="#">Proyectos</a>
-    <a href="#">Contacto</a>
-  </nav>
+  <h1>Mi Imagen Favorita</h1>
 
-  <main>
-    <h2>Hola 👋</h2>
-    <p>Este es un ejemplo básico de una página web hecha con HTML y un poco de CSS.</p>
-    <p>Aquí puedes poner información sobre ti, tus proyectos, enlaces, imágenes, ¡y más!</p>
-  </main>
+  <!-- Imagen desde internet -->
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Fronalpstock_big.jpg/800px-Fronalpstock_big.jpg" alt="Paisaje de montaña">
 
-  <footer>
-    <p>&copy; 2025 Mi Página Web - Todos los derechos reservados</p>
-  </footer>
+  <p>Esta imagen fue cargada desde internet.</p>
+
+  <!-- Imagen local (usa esta línea si tienes una imagen guardada en tu computadora) -->
+  <!-- <img src="mi-imagen.png" alt="Descripción de mi imagen"> -->
+
 </body>
 </html>
